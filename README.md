@@ -2,4 +2,4 @@
 
 Main project in Jonas Schmedtmann's Ultimate React Course
 
-https://the-wild-oasis-acc.vercel.app/login
+https://the-wild-oasis-acc.vercel.app/
