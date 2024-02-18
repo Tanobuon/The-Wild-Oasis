@@ -11,6 +11,15 @@ const LoginLayout = styled.main`
   justify-content: center;
   gap: 3.2rem;
   background-color: var(--color-grey-50);
+
+  @media (max-width: 738px) {
+    ::-webkit-scrollbar {
+      display: none;
+    }
+    min-height: 100vh;
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
 `;
 
 function Login() {

@@ -20,6 +20,13 @@ const Form = styled.form`
     
   overflow: hidden;
   font-size: 1.4rem;
+  @media (max-width: 738px) {
+    ::-webkit-scrollbar {
+      display: none;
+    }
+    width: 60%;
+    margin-left: 20%;
+  }
 `;
 Form.defaultProps = {
   type: "regular",
